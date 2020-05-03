@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer"
+    android:orientation="vertical"
+    android:layout_width="260dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="end"
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@android:color/darker_gray">
+
+        <ImageButton
+            android:id="@+id/butten_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@android:color/darker_gray"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@mipmap/sidebarbackbutton"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="로그"
+            android:textSize="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@android:color/black"
+            android:gravity="right"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total analyze"
+                android:textSize="38dp"
+                android:textColor="@android:color/black"
+                />
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"/>
+
+        </RelativeLayout>
+
+        <View style="@style/Divider"></View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="38dp"
+            android:textColor="@android:color/black"
+            android:text="log1"/>
+        <View style="@style/Divider"></View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="38dp"
+            android:textColor="@android:color/black"
+            android:text="log2"/>
+        <View style="@style/Divider"></View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="38dp"
+            android:textColor="@android:color/black"
+            android:text="log3"/>
+        <View style="@style/Divider"></View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="38dp"
+            android:textColor="@android:color/black"
+            android:text="log4"/>
+        <View style="@style/Divider"></View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="38dp"
+            android:textColor="@android:color/black"
+            android:text="log5"/>
+        <View style="@style/Divider"></View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="38dp"
+            android:textColor="@android:color/black"
+            android:text="log6"/>
+        <View style="@style/Divider"></View>
+
+    </LinearLayout>
+
+</LinearLayout>
